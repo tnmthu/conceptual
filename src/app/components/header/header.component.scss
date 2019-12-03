@@ -1,0 +1,47 @@
+@import "../../../assets/scss/Colors";
+
+.navbar {
+    background-color: transparent;
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+    .container {
+        width: 100%;
+        height: 45px;
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-between;
+        
+        .logo {
+            width: 180px;
+            height: 45px;
+        }
+
+        .list {
+            font-size: 13px;
+            width: 600px;
+            display: flex;
+            align-items: center;
+
+            .list_item {
+                color: $silver;
+                height: 100%;
+                line-height: 45px;
+                padding: 0 20px;
+                cursor: pointer;
+            }
+            
+            .list_item:hover {
+                color: $white;
+            }
+        }
+
+        ul > li {
+            display: inline-block;
+        }
+    }
+    
+}

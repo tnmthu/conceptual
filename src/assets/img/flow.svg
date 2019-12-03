@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1078" height="386" viewBox="0 0 1078 386">
+    <defs>
+        <linearGradient id="a" x1="48.448%" x2="51.505%" y1="3.427%" y2="65.453%">
+            <stop offset="0%" stop-color="#72BBE9"/>
+            <stop offset="100%" stop-color="#0B0C19" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="c" x1="44.377%" x2="45.783%" y1="20.744%" y2="44.765%">
+            <stop offset="0%" stop-color="#ACE0FF"/>
+            <stop offset="100%" stop-color="#0B0C19" stop-opacity="0"/>
+        </linearGradient>
+        <path id="b" d="M420.402 25.986c160.133 61.524 391.214 61.524 600.123 0 208.91-61.524 239.612 4.804 337.41 45.544 97.796 40.741-96.457 140.251-326.773 174.427-230.316 34.177-441.638 180.583-627.741 173.567-186.103-7.016-368.91-105.877-346.996-252.586C78.339 20.23 260.27-35.538 420.402 25.986z"/>
+        <linearGradient id="d" x1="47.475%" x2="50%" y1="8.025%" y2="75.886%">
+            <stop offset="0%" stop-color="#9172E9"/>
+            <stop offset="100%" stop-color="#0B0C19" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="f" x1="41.273%" x2="41.273%" y1="20.018%" y2="62.622%">
+            <stop offset="0%" stop-color="#A98DFD"/>
+            <stop offset="100%" stop-color="#0B0C19" stop-opacity="0"/>
+        </linearGradient>
+        <path id="e" d="M348.216 81.816C517.379 151.53 661.64-1.814 838.862 7.42c177.22 9.233 186.838 52.406 275.172 52.406 88.334 0 2.562 33.504 75.196 0 72.634-33.505 209.486 313.583-154.064 265.718-217.463-28.632-406.77 78.804-490.43 100.954C364.101 474.323-24.784 376.635 1.88 181.558 18.396 60.727 179.052 12.101 348.216 81.816z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" opacity=".6">
+        <g style="mix-blend-mode:exclusion">
+            <use fill="url(#a)" style="mix-blend-mode:lighten" xlink:href="#b"/>
+            <use stroke="url(#c)" xlink:href="#b"/>
+        </g>
+        <g>
+            <use fill="url(#d)" style="mix-blend-mode:lighten" xlink:href="#e"/>
+            <use stroke="url(#f)" xlink:href="#e"/>
+        </g>
+    </g>
+</svg>
