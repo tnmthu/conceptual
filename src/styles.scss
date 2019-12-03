@@ -55,10 +55,17 @@ li {
   padding: 0;
 }
 
+// global characteristics
+.no {
+    &--padding {
+        padding: 0 !important;
+    }
+}
+
 // button
 .btn_container {
-    width: 235px;
-    height: 45px;
+    // width: 235px;
+    // height: 45px;
     border-radius: 30px;
     background: linear-gradient(45deg, $darkslateblue, $mediumpurple);
     color: $white;
@@ -67,10 +74,12 @@ li {
     position: relative;
 
     .btn {
-        width: 231px;
-        height: 41px;
+        // width: 231px;
+        // height: 41px;
         background-color: $black;
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border-radius: 30px;
         box-sizing: border-box;
         border: 0;

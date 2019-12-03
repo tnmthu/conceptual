@@ -8,21 +8,27 @@
     align-items: center;
     position: fixed;
 
+    @media screen and (max-width: 768px) {
+        height: 60px;
+    }
+
     .container {
         width: 100%;
         height: 45px;
         padding: 0 5%;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         
         .logo {
-            width: 180px;
+            width: 160px;
             height: 45px;
         }
 
         .list {
             font-size: 13px;
             width: 600px;
+            height: 100%;
             display: flex;
             align-items: center;
 
@@ -32,10 +38,72 @@
                 line-height: 45px;
                 padding: 0 20px;
                 cursor: pointer;
+
+                .btn_container {
+                    width: 235px;
+                    height: 45px;
+
+                    .btn {
+                        width: 231px;
+                        height: 41px;
+
+                        @media screen and (max-width: 991px) {
+                            width: 176px;
+                            height: 36px;
+                        }
+                    }
+
+                    @media screen and (max-width: 991px) {
+                        width: 180px;
+                        height: 40px;
+                    }
+                }
             }
             
             .list_item:hover {
                 color: $white;
+            }
+
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
+
+            @media screen and (max-width: 991px) {
+                width: 510px;
+                height: 40px;
+            }
+        }
+
+
+        .menu_icon_container {
+            display: none;
+
+            .menu_icon {
+                width: 24px;
+                height: 2px;
+                background-color: $white;
+                position: relative;
+    
+                &_top {
+                    position: absolute;
+                    width: 12px;
+                    height: 2px;
+                    background-color: $white;
+                    top: -10px;
+                    right: 0;
+                }
+
+                &_bot {
+                    position: absolute;
+                    width: 12px;
+                    height: 2px;
+                    background-color: $white;
+                    bottom: -10px;
+                }
+            }
+            
+            @media screen and (max-width: 768px) {
+                display: block;
             }
         }
 
