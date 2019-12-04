@@ -1,0 +1,27 @@
+@import "../../../assets/scss/Colors";
+
+.footer {
+    width: 100%;
+    height: 320px;
+    background: linear-gradient(to bottom, rgba(32, 19, 61, 0.73), #0b0c19), url("../../../assets/img/bg-footer.jpeg") no-repeat;
+    background-size: cover;
+    padding: 50px 0 30px 0;
+    // TO BE DELETED
+    position: fixed;
+    bottom: 0;
+
+
+    .container {
+        padding: 0 5%;
+
+        .left {
+            width: 50%;
+            float: left;
+        }
+        
+        .right {
+            width: 50%;
+            float: right;
+        }
+    }
+}

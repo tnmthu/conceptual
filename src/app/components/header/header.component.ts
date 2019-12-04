@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  private clicked = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public menuClicked() {
+    this.clicked = !this.clicked;
   }
 
 }

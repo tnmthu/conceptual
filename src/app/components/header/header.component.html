@@ -3,7 +3,7 @@
 
         <img class="logo" src="../../../assets/img/kentico.png" alt="logo">
 
-        <ul class="list">
+        <ul class="list f__s--13">
             <li class="list_item">
                 <a>OUR WORK</a>
             </li>
@@ -22,12 +22,9 @@
             </li>
         </ul>
 
-        <div class="menu_icon_container">
-            <div class="menu_icon">
-                <div class="menu_icon_top"></div>
-                <div class="menu_icon_bot"></div>
+        <div class="menu_icon_container" (click)="menuClicked()">
+            <div class="menu_icon" [ngClass]="{'menu_icon--clicked': clicked}">
             </div>
-            
         </div>
 
     </div>
