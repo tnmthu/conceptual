@@ -32,7 +32,7 @@
             align-items: center;
 
             .list_item {
-                color: $silver;
+                color: $dimgray;
                 height: 100%;
                 line-height: 45px;
                 padding: 0 20px;
@@ -61,6 +61,7 @@
             
             .list_item:hover {
                 color: $white;
+                transition: 0.6s;
             }
 
             @media screen and (max-width: 768px) {
