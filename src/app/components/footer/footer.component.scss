@@ -14,6 +14,24 @@
     .container {
         padding: 0 5%;
         height: 100%;
+        color: $silver;
+
+        ul li {
+            display: inline;
+        }
+
+        .list {
+
+            &__item {
+
+                .icon {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 40px;
+                    cursor: pointer;
+                }
+            }
+        }
 
         .top {
             height: 90%;
@@ -115,22 +133,28 @@
                         }
                     }
                 }
+            }
+        }
+        
+        .bot {
+            .left {
+                width: 450px;
+                height: 100%;
+                float: left;
+            }
 
-                ul li {
-                    display: inline;
-                }
+            .right {
+                width: 450px;
+                float: right;
+            }
 
-                .list {
+            .list__item {
+                margin-right: 40px;
+                cursor: pointer;
+                transition: 0.3s;
 
-                    &__item {
-
-                        .icon {
-                            width: 24px;
-                            height: 24px;
-                            margin-right: 40px;
-                            cursor: pointer;
-                        }
-                    }
+                &:hover {
+                    color: $white;
                 }
             }
         }
