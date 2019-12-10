@@ -31,6 +31,8 @@ a,
 button {
   cursor: pointer;
   outline: none;
+  color: inherit;
+  text-decoration: none;
 
   &:hover {
     text-decoration: none;
@@ -67,14 +69,20 @@ li {
     &--white {
       color: $white;
     }
-    &--gray {
+    &--silver {
       color: $silver;
+    }
+    &--gray {
+      color: $dimgray;
     }
   }
 
   &__s {
     &--13 {
       font-size: 13px;
+    }
+    &--18 {
+      font-size: 18px;
     }
     &--20 {
       font-size: 20px;
